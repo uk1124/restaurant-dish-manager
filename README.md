@@ -8,7 +8,6 @@
   - [Prerequisites](#prerequisites)
   - [Clone the Repository](#clone-the-repository)
   - [Setup](#setup)
-- [Application Structure](#application-structure)
 - [Configuration](#configuration)
 - [Endpoints](#endpoints)
   - [Welcome Endpoint](#welcome-endpoint)
@@ -67,26 +66,6 @@ You can run the application using your IDE or from the command line:
 ```bash
 mvn spring-boot:run
 ```
-
-## Application Structure
-
-restaurant-dish-manager
-└── src
-└── main
-└── java
-└── com
-└── example
-└── restaurantdishmanager
-├── RestaurantDishManagerApplication.java
-├── controller
-│ └── DishController.java
-│ └── WelcomeController.java
-├── model
-│ └── Dish.java
-└── repository
-└── DishRepository.java
-└── resources
-└── application.properties
 
 ## Configuration
 
